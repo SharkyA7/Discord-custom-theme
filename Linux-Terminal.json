@@ -1,0 +1,146 @@
+{
+    "name": "Linux Terminal",
+    "description": "True AMOLED black. Monospace. Green phosphor or amber CRT vibes. Your wallpaper, low opacity.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Custom",
+            "id": "0"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": ["#00FF00"],
+        "HEADER_SECONDARY": ["#00CC00"],
+        "TEXT_NORMAL": ["#B8FFB8"],
+        "TEXT_MUTED": ["#4DCC4D"],
+        "INTERACTIVE_NORMAL": ["#00FF00"],
+        "INTERACTIVE_HOVER": ["#33FF33"],
+        "INTERACTIVE_ACTIVE": ["#00CC00"],
+        "INTERACTIVE_MUTED": ["#008800"],
+        "BACKGROUND_PRIMARY": ["#000000"],
+        "CARD_PRIMARY_BG": ["#000000"],
+        "BG_BASE_PRIMARY": ["#000000"],
+        "BACKGROUND_SECONDARY": ["#001100"],
+        "CARD_SECONDARY_BG": ["#001100"],
+        "BG_BASE_SECONDARY": ["#001100"],
+        "BACKGROUND_SECONDARY_ALT": ["#001A00"],
+        "BACKGROUND_TERTIARY": ["#002200"],
+        "BG_BASE_TERTIARY": ["#002200"],
+        "BACKGROUND_ACCENT": ["#00FF001A"],
+        "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
+        "BACKGROUND_MOBILE_SECONDARY": ["#001100"],
+        "BACKGROUND_MESSAGE_HOVER": ["#00FF0008"],
+        "BACKGROUND_MODIFIER_HOVER": ["#001100"],
+        "BACKGROUND_MODIFIER_ACTIVE": ["#002200"],
+        "BACKGROUND_MODIFIER_SELECTED": ["#00FF0014"],
+        "BACKGROUND_MODIFIER_ACCENT": ["#00FF0026"],
+        "BACKGROUND_MENTIONED": ["#00FF0014"],
+        "BACKGROUND_MENTIONED_HOVER": ["#00FF001A"],
+        "CHANNELTEXTAREA_BACKGROUND": ["#000000"],
+        "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#001100"],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": ["#002200"],
+        "REDESIGN_CHAT_INPUT_BACKGROUND": ["#001100"],
+        "REDESIGN_BUTTON_TERTIARY_BACKGROUND": ["#001A00"],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": ["#00FF0033"],
+        "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": ["#4DCC4D"],
+        "REDESIGN_CHANNEL_NAME_TEXT": ["#B8FFB8"],
+        "CHANNELS_DEFAULT": ["#4DCC4D"],
+        "CHANNEL_ICON": ["#00FF00"],
+        "TEXT_PRIMARY": ["#00FF00"],
+        "TEXT_LINK": ["#00FF00"],
+        "THREAD_CHANNEL_SPINE": ["#00FF00"]
+    },
+    "rawColors": {
+        "PRIMARY_100": "#E8FFE8",
+        "PRIMARY_200": "#B8FFB8",
+        "PRIMARY_300": "#4DCC4D",
+        "PRIMARY_400": "#2EB82E",
+        "PRIMARY_500": "#00FF00",
+        "PRIMARY_600": "#00CC00",
+        "PRIMARY_700": "#000000",
+        "PRIMARY_800": "#001100",
+        "PLUM_10": "#00FF00",
+        "PLUM_24": "#33FF33",
+        "PLUM_11": "#001100",
+        "PLUM_15": "#002200",
+        "PLUM_16": "#00FF00",
+        "PLUM_17": "#001A00",
+        "PLUM_20": "#000000",
+        "PLUM_3": "#E8FFE8",
+        "PLUM_4": "#B8FFB8",
+        "PLUM_6": "#4DCC4D",
+        "BRAND_230": "#00FF00",
+        "BRAND_260": "#00FF00",
+        "BRAND_360": "#E8FFE8",
+        "BRAND_500": "#00FF00",
+        "BRAND_560": "#B8FFB8",
+        "RED_260": "#FF3333",
+        "ROLE_DEFAULT": "#4DCC4D",
+        "YELLOW_260": "#FFFF00",
+        "GREEN_260": "#00FF00",
+        "GUILD_BOOSTING_PINK": "#FF33CC",
+        "GUILD_BOOSTING_PURPLE": "#00FF00",
+        "BLUE_345": "#00FF00",
+        "BLUE_330": "#00FF00",
+        "WHITE_500": "#B8FFB8",
+        "WHITE_630": "#4DCC4D"
+    },
+    "plus": {
+        "version": 1,
+        "customOverlays": true,
+        "icons": {
+            "ic_radio_circle_checked": "#00FF00",
+            "ic_radio_circle_checked__overlay": "#000000",
+            "ic_radio_square_24px": "#00FF00",
+            "ic_radio_square_checked_24px": "#00FF00",
+            "ic_radio_square_checked_24px__overlay": "#000000",
+            "ic_selection_checked_24px": "#00FF00",
+            "ic_selection_checked_24px__overlay": "#000000",
+            "StatusMobileOnline": "#00FF00",
+            "StatusIdle": "#FFFF00",
+            "StatusDND": "#FF3333",
+            "StatusOffline": "#333333",
+            "StatusOnline": "#00FF00",
+            "StatusStreaming": "#CC00FF"
+        },
+        "highlight": {
+            "effect": "breathing",
+            "color": "#00FF00",
+            "secondaryColor": "#FFFF00"
+        }
+    },
+    "background": {
+        "blur": 0.08,
+        "url": "https://raw.githubusercontent.com/SharkyA7/Discord-custom-theme/main/2059357949559005222.jpg",
+        "alpha": 0.15
+    },
+    "animations": {
+        "hover": {
+            "card": "float",
+            "button": "pulse"
+        },
+        "click": {
+            "button": "ripple"
+        },
+        "breathing": {
+            "enabled": true,
+            "color": "#00FF00",
+            "secondaryColor": "#FFFF00",
+            "speed": 4,
+            "intensity": 0.4
+        }
+    },
+    "typography": {
+        "fontPrimary": "'JetBrains Mono', 'Fira Code', 'Monospace', monospace",
+        "fontSecondary": "'JetBrains Mono', 'Fira Code', monospace",
+        "sizeNormal": "14px",
+        "sizeLarge": "16px",
+        "sizeSmall": "12px",
+        "textShadow": "0px 0px 6px rgba(0, 255, 0, 0.4)"
+    },
+    "shadows": {
+        "card": "0px 4px 16px rgba(0, 0, 0, 0.7), 0px 0px 2px rgba(0, 255, 0, 0.15)",
+        "button": "0px 2px 8px rgba(0, 0, 0, 0.6), 0px 0px 1px rgba(0, 255, 0, 0.2)"
+    },
+    "spec": 2
+}
